@@ -1,0 +1,343 @@
+    @import url("reset.css");
+
+
+    header{
+        background-color: black;
+    }
+
+    header img{
+        margin-left: 277px;
+
+    }
+
+    #main{
+        position: relative;
+    }
+
+    a{
+        display: inline-block;
+    }
+
+    .credit-card{
+        justify-content: center;
+        background-color: #fffffff5;
+        position: absolute;
+        top: 58px;
+        left: 231px;
+        border-radius: 15px;
+        text-align: center;
+        
+    }
+
+    .credit-card p{
+        margin: 0;
+    }
+    
+    .credit-card button{   
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 4px 81px 12px 81px;
+    }
+
+    
+    .credit-card .p1{
+        color: #383838;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .credit-card .p2{
+        color: #383838;
+        font-size: 54px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .credit-card .p3{
+        font-size: 31px;
+        font-weight: lighter;
+        margin-bottom: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .credit-card button{            
+        font-size: 34px;                    
+        margin-bottom: 32px;
+        font-family: 'Open Sans', sans-serif;
+    }   
+
+    .credit-card-image{
+        margin-top: 36px;
+        
+    }
+
+    .benefits{
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .benefits .heading{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+    }
+
+    .bottom-text{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .button2{   
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        margin: 61px auto 89px auto;
+        font-size: 34px;    
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;        
+        padding: 4px 91px 12px 98px;
+        
+    }   
+
+    footer{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .copyright{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: medium;
+        align-self: center;
+ 
+    }
+
+    .benefits .heading{
+        margin-top: 64px;
+        margin-bottom: 52px;
+    }
+
+    .types-of-benefits{
+        display: flex; 
+         }             
+
+    footer img{
+        margin-right: 22px;
+    }
+    
+    #main img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    footer .image{
+        align-self: center;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+    
+    .content{
+        box-shadow: 0px 10px 20px lightgrey;
+        border-radius: 15px;
+        width: 35vw;;
+        height: 230px;
+    }
+
+    .content{
+        margin-right: 40px;
+     }
+
+     .image a{
+         display: inline-block;
+     }
+
+     /* Why I have to give different marging for content img and content bottom-text */
+
+     .content img{
+        margin: 22px 79px 31px 80px;  
+     }
+
+     .content .bottom-text{
+        margin: 0px 69px 29px 69px;
+     }
+
+     .content img{
+        margin: 21px 86px 16px 85px;
+     }
+
+     .content .bottom-text{
+        margin: 0px 36px 21px 36px;
+     }
+
+     .content img{
+        margin: 22px 82px 17px 84px;
+
+     }
+
+     .content .bottom-text{
+        margin: 0px 38px 17px 39px;
+     }
+    
+     .content img{
+        margin: 22px 86px 14px 86px;
+     }
+
+     .content .bottom-text{
+        margin: 0px 48px 12px 49px;
+     }
+
+     .content .bottom-text{
+        font-family: 'Open Sans', sans-serif;
+
+     }
+
+     /* Media Query */
+
+     @media screen and (max-width: 768px) {
+
+        .credit-card{
+            left: 173px;
+            width: 55%;  
+            box-shadow: 0px 0px 10px 0px;
+ 
+        }
+
+        .benefits{
+            margin-top: 278px;
+        }
+
+        .content{
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-left: 40px;
+
+        
+        }
+
+        .types-of-benefits{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .credit-card button{
+            font-size: 30px;
+
+        }
+
+     }
+
+     @media screen and (max-width: 480px) {
+            
+        header img{    
+            margin-left: 122px;
+        }           
+        
+        .credit-card{
+            left: 60px;
+            width: 263.91px;
+            top: 120px;
+            box-shadow: 0px 0px 10px 0px;
+
+        }
+
+        .credit-card .p2{
+            font-size: 41px;
+        }
+
+        .credit-card .p1{
+            font-size: 14px;
+        }
+
+        .credit-card button {
+            font-size: 3vw;
+            cursor: pointer;
+            margin-bottom: 17.5px;  
+            padding: 8px 42px 13px 46px;
+         }
+        
+          
+        .benefits{
+            margin-top: 348px;
+
+        }
+        
+        .benefits .heading {
+             font-size: 24px;
+             margin-right: 12px;
+        }   
+        
+        .benefits .heading {
+            margin-bottom: 11px;
+        }
+        
+        .types-of-benefits {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+             
+        }
+                        
+        .content img{
+            width: 69px;
+        }
+        
+        .content { 
+            margin-right: 40px;
+            margin-left: 75px;
+            width: 60%;
+            margin-top: 40px;   
+        }
+        
+        .bottom-text {
+            font-size: 16px;
+
+        }
+
+        .button2{
+            font-size: 20px;
+            padding: 8px 42px 13px 46px;
+            margin: 40px 40px 33px 91px;
+            cursor: pointer;
+         }
+
+         footer {
+            flex-direction: column;
+         }    
+         
+         .copyright{
+             margin: 26px auto  29px auto;
+             font-size: 14px;
+             font-family: Arial, Helvetica, sans-serif;
+         }
+
+         footer .image{
+             margin-bottom: 39.9px;
+             margin-right: auto;
+             margin-left: auto;
+             padding: 0%;
+         }
+ 
+        /* how to change text inside span text. */
+        
+    
+     }
+
+     
